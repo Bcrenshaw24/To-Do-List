@@ -1,0 +1,88 @@
+html, body { 
+    height: 100vh; 
+    width: 100vw; 
+    margin: 0px; 
+    padding: 0px;
+    background-color: rgb(155, 101, 255); 
+    color: aliceblue;
+    display: grid; 
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 3fr; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 40px
+}  
+
+.Top {  
+    margin-top: 20px;
+    display: grid; 
+    width: 100vw; 
+    height: 20vh; 
+    grid-template-columns: 85fr 15fr; 
+    grid-template-rows: 2fr 1fr 1fr;
+    column-gap: 10px; 
+    justify-self: center;  
+    row-gap: 1px;
+}  
+.Title{
+    justify-self: center; 
+    align-items: center; 
+    grid-column: span 2; 
+} 
+input { 
+    height: 4vh;  
+    width: 50vw;
+    border: none; 
+    padding: none; 
+    border-radius: 10px; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+} 
+.Top button { 
+    height: 4.5vh; 
+    background-color: rgb(139, 16, 255); 
+    border: none;  
+    color: aliceblue; 
+    border-radius: 5px; 
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+} 
+.box { 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    grid-column: span 2;  
+    width: 100vw;
+}  
+.Top button:hover { 
+    cursor: pointer;  
+    background-color: rgb(166, 71, 255) ; 
+    transition: .3s;
+
+
+} 
+
+.task-style {  
+    display: flex;  
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(139, 16, 255); 
+    height: 6vh; 
+    width: 75vw; 
+    margin: 5px; 
+    justify-content: center; 
+    justify-self: center; 
+    font-size: 25px; 
+    align-items: center;
+} 
+.task-style:hover { 
+    cursor: pointer;  
+    text-decoration: line-through;
+    background-color: rgb(255, 105, 105); 
+    border-color: aliceblue;
+    transition: .4s ; 
+    color: black; 
+}
+
+
+
+

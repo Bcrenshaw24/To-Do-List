@@ -1,2 +1,2 @@
 # To-Do
- A simple To-Do list with frontend in mind
+ A simple To-Do list with just front-end code for now
